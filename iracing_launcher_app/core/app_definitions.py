@@ -44,10 +44,12 @@ APPS = {
         "shortcut_names": ["Garage 61 Telemetry Agent.lnk", "Garage61.lnk", "garage61.lnk"],
         "paths": []  # Will be populated at runtime
     },
-    "Bloops": {
-        "exe": "Bloops.exe",
-        "shortcut_names": ["Bloops.lnk"],
-        "paths": []  # Will be populated at runtime
+    "Elgato Stream Deck": {
+        "exe": "StreamDeck.exe",
+        "shortcut_names": ["Elgato Stream Deck.lnk", "Stream Deck.lnk"],
+        "paths": [
+            r"C:\Program Files\Elgato\StreamDeck\StreamDeck.exe"
+        ]
     },
     "TrackTitan": {
         "exe": "TrackTitanDesktopApplication.exe",

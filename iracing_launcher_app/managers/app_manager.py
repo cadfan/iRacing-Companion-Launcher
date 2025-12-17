@@ -44,13 +44,8 @@ class AppManager:
             )
             apps["Garage61"]["paths"] = [appdata_path]
 
-        # Add dynamic path for Bloops
-        if "Bloops" in apps:
-            localappdata_path = os.path.join(
-                os.getenv('LOCALAPPDATA'),
-                r"Bloops\current\Bloops.exe"
-            )
-            apps["Bloops"]["paths"] = [localappdata_path]
+        # Elgato Stream Deck uses static paths from app_definitions.py
+        # No dynamic path needed
 
         # Add dynamic path for TrackTitan
         if "TrackTitan" in apps:
